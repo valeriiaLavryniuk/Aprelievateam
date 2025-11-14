@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(to bottom, #ffffff, #A63EF6);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.container.menu {
+    background-color: white; 
+    width: 100%; 
+    max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+}
+
+.left button{
+  margin-right: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+button.svg {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button svg {
+  width: 44px;
+  height: 44px;
+}
+
+#menu-btn {
+    background-color: black;
+    border-radius: 25px;
+}
+
+#menu-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+#reviews-btn {
+    background-color: white;
+    border-radius: 25px;
+    color: #B55EF7;
+    border: 2px solid #B55EF7;
+}
+
+#reviews-btn a {
+    color: #B55EF7;
+}
