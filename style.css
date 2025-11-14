@@ -20,16 +20,38 @@ body {
   width: 100%;
 }
 
+.banner {
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+}
+
+#banner {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin-top: 120px;
+  margin-left: 1180px;
+  width: 310px;
+  height: 60px;
+}
+
+#banner a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #B55EF7;
+}
+
 .container.menu {
-    background-color: white; 
-    width: 100%; 
-    max-width: 100%;
+  background-color: white; 
+  width: 100%; 
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  background-color: white;
-  width: 100%;
 }
 
 .left button{
@@ -48,7 +70,6 @@ body {
 
 button a {
   text-decoration: none;
-  color: white;
   font-size: 16px;
 }
 
@@ -68,22 +89,49 @@ button svg {
 }
 
 #menu-btn {
-    background-color: black;
-    border-radius: 25px;
+  background-color: black;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+
+#menu-btn a {
+  color: white;
 }
 
 #menu-btn svg {
-    width: 24px;
-    height: 24px;
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
 }
 
 #reviews-btn {
-    background-color: white;
-    border-radius: 25px;
-    color: #B55EF7;
-    border: 2px solid #B55EF7;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #B55EF7;
 }
 
 #reviews-btn a {
-    color: #B55EF7;
+  color: #B55EF7;
+}
+
+#lang {
+  background-color: #B55EF7;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 14px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+#lang a {
+  color: white;
+}
+
+#lang img {
+  width: 10px;
+  height: 10px;
+}
+
+.about_us h2{
+  color: #B55EF7;
 }
